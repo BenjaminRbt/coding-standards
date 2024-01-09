@@ -1,0 +1,14 @@
+{
+    "name": "benjaminrbt/coding-standards",
+    "type": "library",
+    "license": "MIT",
+    "description": "Coding Standards",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^3.46"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingStandards\\": "src/"
+        }
+    }
+}
