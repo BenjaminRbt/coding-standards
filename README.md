@@ -6,7 +6,6 @@
 composer require BenjaminRbt/coding-standards
 ```
 
-
 ## Contributing
 
 Clone the repository and contribute to this project!
@@ -21,8 +20,6 @@ Edit your `.php-cs-fixer.dist.php`
 
 ```php
 <?php
-
-require_once 'vendor/autoload.php';
 
 return CodingStandards\Factory::createPhpCsFixerConfig(__DIR__);
 ```
